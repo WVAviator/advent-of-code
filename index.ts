@@ -8,6 +8,10 @@ import {
   getCommonItemPrioritySum,
   getBadgePrioritySum,
 } from './days/03/rucksack-reorganization';
+import {
+  getFullyContainedCleanupPairCount,
+  getAllOverlappingPairs,
+} from './days/04/camp-cleanup';
 
 // Day 1
 // console.log('Most calories: ', getMostCalories());
@@ -18,5 +22,12 @@ import {
 // console.log('Total round score pt 2: ', getTotalRoundScorePt2());
 
 // Day 3
-console.log('Pt1 common item prioriy sum: ', getCommonItemPrioritySum());
-console.log('Pt2 get badge priority sum: ', getBadgePrioritySum());
+// console.log('Pt1 common item prioriy sum: ', getCommonItemPrioritySum());
+// console.log('Pt2 get badge priority sum: ', getBadgePrioritySum());
+
+// Day 4
+console.log(
+  'Number of pairs with fully overlapping ranges: ',
+  getFullyContainedCleanupPairCount()
+);
+console.log('Number of overlapping pairs: ', getAllOverlappingPairs());
