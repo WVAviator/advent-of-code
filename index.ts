@@ -1,4 +1,8 @@
 import {
+  getRearrangedCrateStack,
+  getRearrangedCrateStack9001,
+} from './days/05/supply-stacks';
+import {
   getMostCalories,
   getTopThreeCalories,
 } from './days/01/calorie-counting';
@@ -26,8 +30,12 @@ import {
 // console.log('Pt2 get badge priority sum: ', getBadgePrioritySum());
 
 // Day 4
-console.log(
-  'Number of pairs with fully overlapping ranges: ',
-  getFullyContainedCleanupPairCount()
-);
-console.log('Number of overlapping pairs: ', getAllOverlappingPairs());
+// console.log(
+//   'Number of pairs with fully overlapping ranges: ',
+//   getFullyContainedCleanupPairCount()
+// );
+// console.log('Number of overlapping pairs: ', getAllOverlappingPairs());
+
+// Day 5
+console.log('Rearranged crates stack: ', getRearrangedCrateStack());
+console.log('Rearranged crates stack: ', getRearrangedCrateStack9001());
