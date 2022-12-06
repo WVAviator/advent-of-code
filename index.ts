@@ -16,6 +16,7 @@ import {
   getFullyContainedCleanupPairCount,
   getAllOverlappingPairs,
 } from './days/04/camp-cleanup';
+import { findStartOfPacket } from './days/06/tuning-trouble';
 
 // Day 1
 // console.log('Most calories: ', getMostCalories());
@@ -37,5 +38,9 @@ import {
 // console.log('Number of overlapping pairs: ', getAllOverlappingPairs());
 
 // Day 5
-console.log('Rearranged crates stack: ', getRearrangedCrateStack());
-console.log('Rearranged crates stack: ', getRearrangedCrateStack9001());
+// console.log('Rearranged crates stack: ', getRearrangedCrateStack());
+// console.log('Rearranged crates stack: ', getRearrangedCrateStack9001());
+
+// Day 6
+console.log('First unique subsequence of 4: ', findStartOfPacket());
+console.log('First unique subsequence of 14: ', findStartOfPacket('', 14));
