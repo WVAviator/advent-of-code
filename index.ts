@@ -17,6 +17,10 @@ import {
   getAllOverlappingPairs,
 } from './days/04/camp-cleanup';
 import { findStartOfPacket } from './days/06/tuning-trouble';
+import {
+  freeUpSpace,
+  getSmallDirectorySizes,
+} from './days/07/no-space-left-on-device';
 
 // Day 1
 // console.log('Most calories: ', getMostCalories());
@@ -42,5 +46,9 @@ import { findStartOfPacket } from './days/06/tuning-trouble';
 // console.log('Rearranged crates stack: ', getRearrangedCrateStack9001());
 
 // Day 6
-console.log('First unique subsequence of 4: ', findStartOfPacket());
-console.log('First unique subsequence of 14: ', findStartOfPacket('', 14));
+// console.log('First unique subsequence of 4: ', findStartOfPacket());
+// console.log('First unique subsequence of 14: ', findStartOfPacket('', 14));
+
+// Day 7
+console.log('Sum of directories under 100000 size', getSmallDirectorySizes());
+console.log('Minimum size to free up space: ', freeUpSpace());
