@@ -21,6 +21,7 @@ import {
   freeUpSpace,
   getSmallDirectorySizes,
 } from './days/07/no-space-left-on-device';
+import { countVisibleTrees } from './days/08/treetop-tree-house';
 
 // Day 1
 // console.log('Most calories: ', getMostCalories());
@@ -50,5 +51,8 @@ import {
 // console.log('First unique subsequence of 14: ', findStartOfPacket('', 14));
 
 // Day 7
-console.log('Sum of directories under 100000 size', getSmallDirectorySizes());
-console.log('Minimum size to free up space: ', freeUpSpace());
+// console.log('Sum of directories under 100000 size', getSmallDirectorySizes());
+// console.log('Minimum size to free up space: ', freeUpSpace());
+
+// Day 8
+console.log('Number of trees visible: ', countVisibleTrees());
