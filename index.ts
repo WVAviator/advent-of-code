@@ -1,3 +1,4 @@
+import { getVisitedTailPositions } from './days/09/rope-bridge';
 import {
   getRearrangedCrateStack,
   getRearrangedCrateStack9001,
@@ -58,5 +59,9 @@ import {
 // console.log('Minimum size to free up space: ', freeUpSpace());
 
 // Day 8
-console.log('Number of trees visible: ', countVisibleTrees());
-console.log('Highest scenic score: ', getHighestScenicScore());
+// console.log('Number of trees visible: ', countVisibleTrees());
+// console.log('Highest scenic score: ', getHighestScenicScore());
+
+// Day 9
+console.log('Number of tail positions: ', getVisitedTailPositions());
+console.log('Number of 10th tail positions: ', getVisitedTailPositions(9));
