@@ -26,6 +26,7 @@ import {
   countVisibleTrees,
   getHighestScenicScore,
 } from './days/08/treetop-tree-house';
+import { getSignalStrengthSum, renderCRT } from './days/10/cathode-ray-tube';
 
 // Day 1
 // console.log('Most calories: ', getMostCalories());
@@ -63,5 +64,9 @@ import {
 // console.log('Highest scenic score: ', getHighestScenicScore());
 
 // Day 9
-console.log('Number of tail positions: ', getVisitedTailPositions());
-console.log('Number of 10th tail positions: ', getVisitedTailPositions(9));
+// console.log('Number of tail positions: ', getVisitedTailPositions());
+// console.log('Number of 10th tail positions: ', getVisitedTailPositions(9));
+
+// Day 10
+console.log('Signal strength sum: ', getSignalStrengthSum());
+console.log('Rendered CRT screen:\n', renderCRT());
