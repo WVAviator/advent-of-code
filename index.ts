@@ -21,7 +21,10 @@ import {
   freeUpSpace,
   getSmallDirectorySizes,
 } from './days/07/no-space-left-on-device';
-import { countVisibleTrees } from './days/08/treetop-tree-house';
+import {
+  countVisibleTrees,
+  getHighestScenicScore,
+} from './days/08/treetop-tree-house';
 
 // Day 1
 // console.log('Most calories: ', getMostCalories());
@@ -56,3 +59,4 @@ import { countVisibleTrees } from './days/08/treetop-tree-house';
 
 // Day 8
 console.log('Number of trees visible: ', countVisibleTrees());
+console.log('Highest scenic score: ', getHighestScenicScore());
